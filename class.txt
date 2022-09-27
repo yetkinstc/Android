@@ -1,0 +1,35 @@
+class islem{
+val ogrno : int;
+val islemno : int;
+val kitapno: int;
+val atarih : string
+val vtarih : string
+}
+class ogrenci {
+val ogrno : int;
+val ograd: string;
+val ogrsoyad: string;
+val cinsiyet : string;
+val dtarih:  string;
+val sinif: string;
+}
+class kitap {
+val kitapno : int;
+val isbnno : int;
+val kitapadi : string;
+val yazarno : int;
+val turno : int;
+val sayfasayisi : int;
+val puan : int;
+
+}
+class yazar{
+val yazarno : int;
+val yazarad : string;
+val yazarsoyad : string;
+
+}
+class tur{
+val turno : int;
+val turadi : string;
+}
